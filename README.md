@@ -1,2 +1,2 @@
 # odin-rock-paper-scissors
-Odin Project 3
+Classic rock-paper-scissors game, played through console.
