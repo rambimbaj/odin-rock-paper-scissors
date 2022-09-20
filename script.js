@@ -17,9 +17,22 @@ function playRound(computerChoice, playerChoice) {
             computerScore++;
             return "round lose";
         }
-    }
+}
+
+// function playGame(playerChoice) {
+//    let player = playerChoice;
+//    let computer = computerChoice;
+//    for (let i = 0; i < 5; i++) {
+//        playRound(player, computer);
+//        if (playerScore == 5) {
+//            console.log("yep");
+//        } else if (computerChoice == 5) {
+//            console.log("nop");
+//        }
+//     }
+//}
 
 console.log("player: ", playerChoice);
 console.log("computer: ", computerChoice);
 console.log(playRound(computerChoice, playerChoice));
-console.log("score: ", playerScore, computerScore);
+console.log("score: ", playerScore, "-", computerScore);
