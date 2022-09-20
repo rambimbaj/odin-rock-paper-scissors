@@ -17,7 +17,7 @@ function playRound(computerChoice, playerChoice) {
             computerScore++;
             return "round lose";
         }
-}
+    }
 
 // function playGame(playerChoice) {
 //    let player = playerChoice;
